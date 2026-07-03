@@ -1,0 +1,20 @@
+# APKs and reverse-engineering outputs
+*.apk
+*.apks
+*.xapk
+*.aab
+decompiled/
+findings/*.json
+
+# Secrets and local configuration
+.env
+*.env
+!.env.example
+poc/.env
+
+# Python/cache/editor noise
+__pycache__/
+*.py[cod]
+.DS_Store
+.idea/
+.vscode/
